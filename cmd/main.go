@@ -32,7 +32,7 @@ func main() {
 	router.GET("/messages", h.GetMessages)
 
 	// Start the HTTP server.
-	port := "8080"
+	port := "3000"
 	server := &http.Server{
 		Addr:    ":" + port,
 		Handler: router,
